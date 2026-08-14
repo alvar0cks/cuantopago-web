@@ -218,6 +218,8 @@ nav a:hover {
   border-radius: 17px;
   margin: 0 auto 12px;
   font-size: 27px;
+  background: transparent;
+  box-shadow: none;
 }
 
 .phone-screen h3 {
@@ -773,6 +775,9 @@ footer {
   height: 100%;
   object-fit: contain;
   display: block;
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
 
 .receipt-small-icon {
