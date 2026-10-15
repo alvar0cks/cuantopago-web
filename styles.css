@@ -827,3 +827,22 @@ footer {
 }
 
 }
+/* VIDEO DEMOSTRATIVO EN EL TELEFONO - CUANTO PAGO */
+.mini-phone.mini-phone-video {
+  position: relative;
+  width: min(310px, 100%);
+  aspect-ratio: 310 / 590;
+  height: auto;
+  padding: 9px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mini-phone-video-player {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 292 / 572;
+  object-fit: contain;
+  background: #faf9fd;
+  border-radius: 35px;
+}
